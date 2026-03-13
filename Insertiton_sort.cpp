@@ -8,7 +8,6 @@ void input(){
   while(true){
     cout <<  "Masukan Jumlah Data Pada Array : ";
     cin >> n;
-  
      if (n <=20){
             break;
         }
@@ -16,11 +15,11 @@ void input(){
             cout << "\nArray tidak boleh lebih dari 20\n";
         }
     }
-    cout << endl;
-    cout << "===============================";
-    cout << "======Masukan Elemen Array=====";
-    cout << "===============================";
-    cout << endl;
+  
+    cout << "===============================" << endl;
+    cout << "======Masukan Elemen Array=====" << endl;
+    cout << "===============================" << endl;
+   
 
     for (int i = 0; i < n; i++ ){
         cout << "Data Ke-" << (i + 1) << ": ";
@@ -28,10 +27,14 @@ void input(){
     }
   }
 
-  void insertionsort()
-{
+  void insertionsort(){
     int temp;
     int j;
+
+    cout << endl;
+    cout << "===============================" << endl;
+    cout << "==========Step ke - ===========" << endl;
+    cout << "===============================" << endl;
 
     for (int i = 0; i < n; i++)
     {
@@ -54,7 +57,7 @@ void input(){
 void display(){
     cout << endl;
     cout << "=================";
-    cout << "\nEelement Array" << endl;
+    cout << "\nElement Array" << endl;
     cout << "=================";
     cout << endl;
 
