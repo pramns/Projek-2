@@ -20,6 +20,7 @@ void input(){
     cout << "===============================";
     cout << "======Masukan Elemen Array=====";
     cout << "===============================";
+    cout << endl;
 
     for (int i = 0; i < n; i++ ){
         cout << "Data Ke-" << (i + 1) << ": ";
@@ -55,6 +56,7 @@ void display(){
     cout << "=================";
     cout << "\nEelement Array" << endl;
     cout << "=================";
+    cout << endl;
 
     for(int j = 0; j < n; j++){
         cout << arr[j] << endl;
